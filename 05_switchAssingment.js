@@ -50,8 +50,13 @@ switch(monthNumber) {
     case 12:
     console.log(`12 month is December`);
     break;
+    default:
+        console.log(`given month is not valid`);
+    
 }
 }  
     monthOfYear(2);
     monthOfYear(5);
     monthOfYear(12);
+    monthOfYear(15);
+    monthOfYear(100);
